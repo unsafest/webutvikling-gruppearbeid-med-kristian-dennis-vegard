@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Half life 3, Dzianis Ausianikau, weboblig 2</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="hl3.css">
+</head>
+
+<body>
+		<header> 
+		<h1>Half life 3</h1>
+		</header>	
+		<nav>	
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Info</a></li>
+					<li><a href="#">Hest</a></li>
+				</ul>
+		</nav>
+		
+		<div>
+			<div id="mcontent">
+			<header> 
+				<h2>About HL3</h2>
+			</header>
+			
+			<article class="bpage"> <h2>lÃ¸k</h2>
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dignissim tellus sit amet est egestas porttitor. Vestibulum aliquet augue ut purus tempus, in aliquet justo cursus. Sed vel mollis tortor. Quisque pretium euismod massa, et cursus orci tempus et. Donec volutpat auctor metus vel bibendum. Integer efficitur magna ipsum. Sed massa elit, consectetur eu mi laoreet, pharetra viverra orci. Vestibulum turpis est, dapibus in sagittis id, porttitor ut mi. Nullam commodo consectetur odio, vel commodo ipsum pretium sit amet. Cras nibh felis, pretium nec libero id, convallis efficitur nibh. Sed suscipit risus ac sapien dapibus, dapibus viverra lectus euismod. Aliquam pretium purus tincidunt, efficitur risus eu, elementum sapien. Morbi quis diam ac elit fermentum molestie at eget enim. Nulla vitae facilisis enim. Pellentesque cursus non nisl sit amet condimentum.</p>
+				</div>
+			</article>
+				<div id=rss>
+					<h2><a href="rss.xml">RSS feed</a></h2>
+				</div>
+		</div>
+		</div>
+		<footer> 
+				<section><h2>Fuut</h2></section>
+		</footer>
+</body>
+</html>
