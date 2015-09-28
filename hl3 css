@@ -1,0 +1,115 @@
+/* stil for alle elementer */
+* {		
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0 auto;
+  width:960px;
+  color: orange;
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url("hl3.png");
+  background-color: #cccccc;
+  background-size: 1980px 1020px;
+  background-repeat: no-repeat;
+}
+
+nav, header, footer, aside, section {display:block;}
+
+a {	
+	text-decoration: none;
+}
+
+h1 {
+  font-size:26px;
+  line-height:40px;
+  padding:18px 0;
+  text-align:center;
+  color: orange;
+}
+
+nav {
+   width:925px;
+   height:40px;
+   background:#f3f3f3;
+   border:1px solid #cccccc;
+}
+
+nav ul {  
+    margin: 0 auto;  
+    width: 900px;  
+    list-style: none;  
+} 
+
+nav ul li {  
+    float: left;  
+} 
+
+nav ul li a {  
+    display: block; 
+	margin-right: 80px;  
+    width: 200px;  
+    font-size: 20px;  
+    line-height: 40px;  
+    text-align: center;    
+    color: #000;  
+}  
+
+nav ul li ul{
+	display:none;
+	position:absolute;
+}
+
+nav ul li:hover ul{
+	display: block;
+	background:#f3f3f3;
+	border:1px solid #cccccc;
+	height: auto;
+	width: 200px;
+	margin-left: 5px;
+	margin-top: -6px;
+}
+
+#content {
+	clear:both;
+	margin-top:10px;
+}
+
+#mcontent {
+	float:left;
+	width:620px;
+	padding: 0 5px 0 0 
+}
+
+aside {
+	float:left;
+	width:200px;
+	height:275px;
+	background:#f3f3f3;
+}
+
+aside section {
+	background:#e0e0e0;
+	margin:22px 0 0 22px;
+	padding:11px 22px;
+	width:50%;
+}
+
+footer{
+	clear:both;
+	background:#ff6600;
+	border-top:1px solid #cccccc;
+	padding:10px;
+	text-align:center;
+	color:#000305;
+}
+
+
+@-webkit-keyframes first {
+    0%   {background: orange;}
+    25%  {background: purple;}
+    50%  {background: blue;}
+    100% {background: green;}
+}
+
